@@ -94,7 +94,7 @@ li a:hover:before {
 
 section {
     min-height: 100vh;
-    padding: 8rem 12%;
+    padding: 5rem 12%;
     width: 100%;
     position: relative;
 }
@@ -309,7 +309,7 @@ section {
     justify-content: center;
     text-align: center;
     gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .input-box input {
     border-radius: 3rem;
@@ -323,10 +323,65 @@ section {
 
 input {
     position: relative;
-
-    text-align: center;
 }
-
+.form {
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d5faf6;
+}
+.contact h2 {
+    font-size: 2.5rem;
+}
+.form label,
+.form input,
+.form textarea,
+.form button {
+    width: 100%;
+    display: block;
+}
+.form label {
+    color: rgb(0, 0, 0);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+.form input,
+.form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+}
+.form textarea {
+    min-height: 13rem;
+    resize: vertical;
+}
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+    border-color: #00635a;
+    box-shadow: 0 0 0 3px #00e3cc;
+}
+.form button {
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: #00635a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.form button:hover {
+    background: linear-gradient(#00635a, #00e3cc);
+}
 footer {
     bottom: 0;
     left: 0;

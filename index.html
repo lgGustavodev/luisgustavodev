@@ -143,12 +143,16 @@
                 <h2 class="section-title">
                     Entre em contato comigo</h2>
             </div>
-            <form action="https://formsubmit.co/lggustavodev@gmail.com" method="POST">
+            <form class="form" action="https://formsubmit.co/lggustavodev@gmail.com" method="POST">
+                <label for="name" id="name">Nome</label>
                 <input type="text" name="name" required>
+                <label for="email" id="email" >Email</label>
                 <input type="email" name="email" required>
-                <textarea name="message" placeholder="Escreva aqui" id=""></textarea>
+                <label for="message">Mensagem</label>
+                <textarea name="message" placeholder="Escreva aqui" id="message" required></textarea>
                 <input type="hidden" name="_next" value="https://lggustavodev.github.io/luisgustavodev/obrigado.html">
-                <button type="submit">Send</button>
+                <button type="submit">Enviar</button>
+            
             </form>
         </section>
         <footer>
