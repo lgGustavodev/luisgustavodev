@@ -482,7 +482,7 @@ footer ul li a {
         width: 80vw;
     }
     .project-card {
-        padding: 3rem 1rem;
+        padding: 3rem 0.5rem;
     }
     .projects-grid {
         display: flex;
