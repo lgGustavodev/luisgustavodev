@@ -257,6 +257,15 @@ section {
 }
 
 /* SECTION PROJECTS */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%; /* Ajuste essa porcentagem conforme necessário */
+}
 .projects-grid {
     display: flex;
     gap: 2rem;
@@ -465,12 +474,15 @@ footer ul li a {
     }
     section {
         min-height: 100vh;
-        padding: 5rem 5%;
+        padding: 5rem 1rem;
         width: 100%;
         position: relative;
     }
     .experience img {
         width: 80vw;
+    }
+    .project-card {
+        padding: 3rem 1rem;
     }
     .projects-grid {
         display: flex;
@@ -490,6 +502,7 @@ footer ul li a {
     .about .about-container {
         gap: 1rem;
     }
+
     .nav-links {
         position: absolute;
         top: 100%;
@@ -543,6 +556,7 @@ footer ul li a {
     .input-box input::placeholder {
         font-size: 1.5rem;
     }
+
     footer ul {
         gap: 0.6rem;
     }
